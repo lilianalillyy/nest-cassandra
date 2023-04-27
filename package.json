@@ -1,7 +1,7 @@
 {
   "name": "@liliana1110/nest-cassandra",
-  "version": "6.1.0",
-  "description": "Updated fork of nestjs-express-cassandra with ScyllaDB support (express-cassandra 2.9.x)",
+  "version": "6.1.2",
+  "description": "Nest.js module containing useful utilities and decorators for express-cassandra",
   "authors": [
     {
       "name": "Mia Vališová",

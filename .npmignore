@@ -1,9 +1,6 @@
-# source
-lib
-index.ts
-package-lock.json
-tslint.json
-tsconfig.json
 .prettierrc
-sample
+.eslintrc.js
+examples
 .github
+.cassandraWorkbench*
+tsconfig.tsbuildinfo

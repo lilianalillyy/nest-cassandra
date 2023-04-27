@@ -10,17 +10,17 @@
 
 ```sh
 pnpm remove @iaminfinity/express-cassandra
-pnpm i @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.0 @liliana1110/nest-cassandra:^6.1.0
+pnpm i @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.2 @liliana1110/nest-cassandra:^6.1.2
 ``` 
 
 ```sh
 npm uninstall @iaminfinity/express-cassandra
-npm i --save @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.0 @liliana1110/nest-cassandra:^6.1.0
+npm i --save @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.2 @liliana1110/nest-cassandra:^6.1.2
 ``` 
 
 ```sh
 yarn remove @iaminfinity/express-cassandra
-yarn add @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.0 @liliana1110/nest-cassandra:^6.1.0
+yarn add @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.2 @liliana1110/nest-cassandra:^6.1.2
 ``` 
 
 And you're done. Incrementally and in new code, use the `@liliana1110/nest-cassandra` package instead and replace the following imports (currently aliased but support will drop in 7.x):
