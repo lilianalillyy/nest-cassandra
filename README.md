@@ -25,7 +25,7 @@ yarn add @iaminfinity/express-cassandra@npm:@liliana1110/nest-cassandra:^6.1.2 @
 
 Ensure that the configuration is correct as this project uses newer versions of both `express-cassandra` and `cassandra-driver` (the underlying connector used by `express-cassandra`).
 
-Notably, `localDataCenter` needs to be specified for `cassandra-driver` (the underlying library used by `express-cassandra`):
+Notably, `localDataCenter` needs to be specified for `cassandra-driver`:
 ```js
 {
   clientOptions: {
@@ -39,7 +39,7 @@ Refer to the appropriate docs for config changes:
 - `clientOptions` [DataStax Node.js Driver](https://docs.datastax.com/en/developer/nodejs-driver/4.6/api/type.ClientOptions/) 
 - `ormOptions` [Express Cassandra](https://express-cassandra.readthedocs.io/en/latest/usage/#explanations-for-the-options-used-to-initialize)
 
-And you're done. Incrementally and in new code, use the `@liliana1110/nest-cassandra` package instead and replace the following imports (currently aliased but support will drop in 7.x):'localDataCenter' is not defined in Client options and also was not specified in constructor. At least one is required. Available DCs are: [datacenter1]
+And you're done. Incrementally and in new code, use the `@liliana1110/nest-cassandra` package instead and replace the following imports (currently aliased but support will drop in 7.x):
 (`ExpressCassandraOptionsFactory` currently stays the same, it is a subject to change in 7.x though)
 - `ExpressCassandraModule` -> `CassandraModule`
 - (internal) `ExpressCassandraCoreModule` -> `CassandraCoreModule`
